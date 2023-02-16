@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结果页</title>
+</head>
+<body>
+    <button onclick="openPath()">打开输出文件夹</button>
+    <button onclick="backHome()">回到首页</button>
+    <script>
+        function openPath(){
+            window.electronAPI.openOutputPath();
+        }
+
+        function backHome(){
+            window.electronAPI.pageHome();
+        }
+    </script>
+</body>
+</html>

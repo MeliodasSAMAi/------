@@ -1,0 +1,19 @@
+{
+  "name": "e-t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "chcp 65001 && nodemon --exec electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --win"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.2",
+    "electron-builder": "^23.0.3"
+  }
+}
